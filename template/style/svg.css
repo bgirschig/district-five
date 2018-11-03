@@ -1,0 +1,86 @@
+svg {
+
+    background-color: #999999;
+    fill: black;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+#Ebene_111 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    background: transparent;
+    z-index: 2;
+    pointer-events: none;
+    height: 100%;
+    vertical-align: center;
+    transform: scale(0.5); }
+}
+
+#ritter {
+    fill: transparent;
+    stroke-width: 5px;
+    stroke: black;
+    stroke-dasharray: 1823;
+    stroke-dashoffset: 1823;
+}
+
+#letter-2 {
+    fill: transparent;
+    stroke-width: 1px;
+    stroke: black;
+    stroke-dasharray: 160;
+    stroke-dashoffset: 160;
+}
+
+.letter-e {
+    fill: transparent;
+    stroke-width: 1px;
+    stroke: black;
+    stroke-dasharray: 225;
+    stroke-dashoffset: 225;
+    }
+
+
+.st0 {
+    fill: transparent;
+    stroke-width: 1px;
+    stroke: black;
+    stroke-dasharray: 80;
+    stroke-dashoffset: 80;
+    }
+
+.st1 {
+    fill: transparent;
+    stroke-width: 1px;
+    stroke: black;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 130;
+    }
+    
+#small-p {
+width:35.809px; 
+}
+/*
+#letter-2 {
+    fill: transparent;
+    stroke-width: 5px;
+    stroke: black;
+    stroke-dasharray: 1754;
+    stroke-dashoffset: 1754;
+}
+.letter-e {
+    fill: transparent;
+    stroke-width: 5px;
+    stroke: black;
+    stroke-dasharray: 1823;
+    stroke-dashoffset: 1823;
+    }
+
+
+
+*/
+
