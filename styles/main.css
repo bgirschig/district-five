@@ -1,1 +1,30 @@
-/* blank */ 
+/* This file contains css adjustments made to the template for the adaptation to
+a new CMS (processwire), for more flexibility.
+The original css files should not be modified, as the original code is quite
+brittle (The source code was not available and had to be retrieved from the
+online website) and we don't want to break anything
+For the same reason, the chages should be kept minimal (until a real refactor is
+done) */
+
+.editLink {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* adjust generic blocks, depending on column count */
+.generic-block small {
+  font-size: 0.4em;
+}
+.generic-block .six {
+  font-size: 2.5rem;
+  line-height: 120%;
+}
+.generic-block li {
+  margin-bottom: 25px;
+}
+
+/* Reproduce the 2 lines link 'effect' without a <br>in the link title */
+.external-link a {
+  max-width: 240px;
+}
