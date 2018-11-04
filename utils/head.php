@@ -1,11 +1,7 @@
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title><?=$page->title;?></title>
-  <link rel="stylesheet" type="text/css" href="<?=$config->urls->templates;?>styles/main.css" />
-  
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
   <!-- stylesheets -->
   <link rel="stylesheet" href="<?=$config->urls->templates;?>styles/skeleton.css">
   <link rel="stylesheet" href="<?=$config->urls->templates;?>styles/svg.css">
@@ -20,32 +16,41 @@
   <script>(function(html){html.className = html.className.replace(/\bno-js\b/, 'js')})(document.documentElement);</script>
 
   <!-- Basic meta -->
-  <title>D5–4 • District Five Quartet</title>
-  <meta name="description" content="Die nächste Generation Jazz Musiker nimmt die Strömungen des heutigen Jazz auf und formt daraus eine eigene Klangsprache mit Perspektive auf Tradition.">
+  <title><?=$page->title?></title>
+  <meta name="description" content="<?=$page->description?>">
   <link rel="canonical" href="<?=$page->httpUrl;?>">
   <link rel="shortlink" href="<?=$page->httpUrl;?>">
 
   <!-- opengraph -->
   <meta property="og:locale" content="de_DE">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="D5–4 • District Five Quartet">
-  <meta property="og:description" content="Die nächste Generation Jazz Musiker nimmt die Strömungen des heutigen Jazz auf und formt daraus eine eigene Klangsprache mit Perspektive auf Tradition.">
-  <meta property="og:url" content="http://www.districtfivequartet.com/">
-  <meta property="og:site_name" content="D5–4 • District Five Quartet">
+  <meta property="og:title" content="<?=$page->title?>">
+  <meta property="og:description" content="<?=$page->description?>">
+  <meta property="og:url" content="<?=$page->httpUrl?>">
+  <meta property="og:site_name" content="<?=$page->title?>">
+  <meta property="og:image" content="<?=$page->image->httpUrl?>">
   
   <!-- twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:description" content="Die nächste Generation Jazz Musiker nimmt die Strömungen des heutigen Jazz auf und formt daraus eine eigene Klangsprache mit Perspektive auf Tradition.">
-  <meta name="twitter:title" content="D5–4 • District Five Quartet">
-  <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.districtfivequartet.com\/","name":"D5\u20134 \u2022 District Five Quartet","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.districtfivequartet.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  <meta name="twitter:description" content="<?=$page->description?>">
+  <meta name="twitter:title" content="<?=$page->title?>">
+  <script type="application/ld+json">
+    {
+      "@context":"http://schema.org",
+      "@type":"WebSite",
+      "@id":"#website",
+      "url":"<?=$page->httpUrl?>",
+      "name":"<?=$page->title?>"
+    }
+  </script>
 
   <!-- dns prefetch -->
   <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
   
   <!-- rss feeds -->
-  <link rel="alternate" type="application/rss+xml" title="D5–4 • District Five Quartet » Feed" href="<?=$page->httpUrl;?>feed/">
-  <link rel="alternate" type="application/rss+xml" title="D5–4 • District Five Quartet » Kommentar-Feed" href="<?=$page->httpUrl;?>comments/feed/">
-  <link rel="alternate" type="application/rss+xml" title="D5–4 • District Five Quartet » D5–4 Kommentar-Feed" href="<?=$page->httpUrl;?>beispiel-seite/feed/">
+  <link rel="alternate" type="application/rss+xml" title="<?=$page->title?> » Feed" href="<?=$page->httpUrl;?>feed/">
+  <link rel="alternate" type="application/rss+xml" title="<?=$page->title?> » Kommentar-Feed" href="<?=$page->httpUrl;?>comments/feed/">
+  <link rel="alternate" type="application/rss+xml" title="<?=$page->title?> » D5–4 Kommentar-Feed" href="<?=$page->httpUrl;?>beispiel-seite/feed/">
 
   <script type="text/javascript" src="<?=$config->urls->templates;?>scripts/jquery.js"></script>
   <script type="text/javascript" src="<?=$config->urls->templates;?>scripts/jquery-migrate.min.js"></script>
