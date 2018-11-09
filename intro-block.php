@@ -11,7 +11,7 @@
   <div class="twelve columns" style="background-color:#999999;">
     <div class="mid-width" style="max-width: 960px; margin: 0 auto;">
       <span>
-        <h1><?=$page->title;?></h1>
+        <h1><?=$page->displayed_title;?></h1>
       </span>
     </div>
   </div>

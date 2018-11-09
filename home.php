@@ -11,6 +11,10 @@
       <?php include('resources/d4-logo.svg'); ?>
 
       <div class="container">
+        <?php include($config->paths->templates."intro-block.php"); ?>
+      </div>
+
+      <div class="container">
         <?php
           $children = $pages->get("/")->children;
           for ($i=0; $i < $children->count; $i++) { 
