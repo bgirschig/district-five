@@ -44,3 +44,19 @@ done) */
   height: 100%;
   left: 0; top: 0;
 }
+
+/* concert list block */
+.concertlist-block .column {
+  padding: 15px;
+}
+.concertlist-block .concert {
+  margin-bottom: 1em;
+}
+.concertlist-block .concert:last-child {
+  margin-bottom: 0;
+}
+
+.concertlist-block .twelve { font-size: 2em }
+.concertlist-block .six { font-size: 1.8em; }
+.concertlist-block .four { font-size: 1.6rem; }
+.concertlist-block .three { font-size: 1.4rem; }

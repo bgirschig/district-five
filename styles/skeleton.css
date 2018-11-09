@@ -204,7 +204,7 @@ font-size: 0.6em;
 
 
 .row:last-child {
-    padding-bottom:7px;
+    /* padding-bottom:7px; */
 }
   
 
