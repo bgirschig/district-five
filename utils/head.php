@@ -17,7 +17,7 @@
 
   <!-- Basic meta -->
   <title><?=$page->title?></title>
-  <meta name="description" content="<?=$page->description?>">
+  <meta name="description" content="<?=$page->simple_description?>">
   <link rel="canonical" href="<?=$page->httpUrl;?>">
   <link rel="shortlink" href="<?=$page->httpUrl;?>">
 
@@ -25,14 +25,14 @@
   <meta property="og:locale" content="de_DE">
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?=$page->title?>">
-  <meta property="og:description" content="<?=$page->description?>">
+  <meta property="og:description" content="<?=$page->simple_description?>">
   <meta property="og:url" content="<?=$page->httpUrl?>">
   <meta property="og:site_name" content="<?=$page->title?>">
   <meta property="og:image" content="<?=$page->image->httpUrl?>">
   
   <!-- twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:description" content="<?=$page->description?>">
+  <meta name="twitter:description" content="<?=$page->simple_description?>">
   <meta name="twitter:title" content="<?=$page->title?>">
   <script type="application/ld+json">
     {
