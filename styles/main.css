@@ -50,7 +50,10 @@ done) */
   padding: 15px;
 }
 .concertlist-block .concert {
-  margin-bottom: 1em;
+  margin-bottom: 1.4em;
+}
+.concertlist-block .six .concert {
+  margin-bottom: 0.8em;
 }
 .concertlist-block .concert:last-child {
   margin-bottom: 0;
