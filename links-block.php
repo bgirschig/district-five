@@ -1,8 +1,8 @@
 <!-- first, prepare some data -->
 <?php
 $className = (($page->links->count == 1) ? "twelve columns" : "one-half column dot");
-$style_variant = $page->style_variant->title;
-$title_tag = $style_variant == "big" ? "h2" : "h5 style='margin-left:15px;'";
+$style_variant = $page->size_variant->title;
+$title_tag = ($style_variant == "big" || $style_variant == "medium") ? "h2" : "h5 style='margin-left:15px;'";
 ?>
 
 <!-- Links block. Can accept One or two links -->
